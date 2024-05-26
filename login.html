@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body style = "display: flex; align-items: center;  justify-content: center;">
+<style>
+form{
+    display: inline-block; 
+    border: 5px solid black;
+    padding: 50px;
+    
+}
+ 
+table{
+    border: 2px solid black;
+    padding: 20px;
+    background-color:grey;
+}
+
+</style> 
+<form action="Login" method="Get">
+        <table>
+        <tr>
+            <td><label>Name :</label> </td>
+            <td><input type="text" required name="name"></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="text" required name="password"></td>
+        </tr>
+        <tr>
+            <td>
+                <Button type="submit" name="btn" value="login" >Login</Button>
+            </td>
+        </tr>
+        </table>
+        </form>
+
+</body>
+</html>
